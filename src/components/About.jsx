@@ -1,8 +1,11 @@
+import AlaskanSelfie from "../assets/images/AlaskanSelfie.jpg";
+
 function About() {
   return (
     <>
       <h1 id="page">About</h1>
       <p>
+        <img src={AlaskanSelfie} id="selfie" alt="Selfie" />
         'WIP' Currently attending Full-Stack Web Development Bootcamp with
         University of Denver. For more than a decade I've been working in our
         family businesses going from owning a lawn service to owning a deer

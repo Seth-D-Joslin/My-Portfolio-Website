@@ -46,7 +46,7 @@ function App() {
             href="https://www.linkedin.com/in/seth-joslin-225200281/"
             class="decor"
           >
-            <img src={linkedIn} id="icons" alt="LinkedIn"></img>
+            <img src={linkedIn} id="icons" alt="LinkedIn" />
           </a>
         </h2>
         <h2>
@@ -56,7 +56,7 @@ function App() {
               src="https://icons.iconarchive.com/icons/limav/flat-gradient-social/128/Github-icon.png"
               id="icons"
               alt="GitHub"
-            ></img>
+            />
           </a>
         </h2>
       </footer>

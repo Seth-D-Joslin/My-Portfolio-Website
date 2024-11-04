@@ -12,6 +12,18 @@ header {
   padding-left: 20px;
 }
 
+#form {
+  padding-left: 30px;
+  font-size: 20px;
+  border: 2px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+}
+
 #page {
   padding-top: 20px;
   padding-left: 30px;
@@ -63,4 +75,11 @@ a {
 #navBar a {
   margin-top: -60px;
   padding: 0.5rem 1rem;
+}
+
+#selfie {
+  padding-right: 20px;
+  border-radius: 50px;
+  height: 275px;
+  width: 200px;
 }
