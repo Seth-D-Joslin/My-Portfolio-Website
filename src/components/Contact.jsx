@@ -22,17 +22,36 @@ function Contact() {
       <form onSubmit={handleSubmit} id="form">
         <label>Name</label>
         <br />
-        <input type="text" name="name" />
+        <input
+          type="text"
+          name="name"
+          //   value={formData.name}
+          //   onChange={handleChange}
+        />
         <br />
         <br />
         <label>Email</label>
         <br />
-        <input type="text" email="email" />
+        <input
+          type="text"
+          email="email"
+          //   value={formData.email}
+          //   onChange={handleChange}
+        />
         <br />
         <br />
         <label>Message</label>
         <br />
-        <textarea type="text" message="message" rows="5" cols="30" />
+        <textarea
+          type="text"
+          message="message"
+          rows="5"
+          cols="30"
+          //   value={formData.email}
+          //   onChange={handleChange}
+        />
+        <br />
+        <button type="submit">Submit</button>
       </form>
     </>
   );

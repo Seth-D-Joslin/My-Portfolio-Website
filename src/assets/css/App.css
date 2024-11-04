@@ -7,6 +7,12 @@ header {
   border-bottom: 2px solid black;
 }
 
+#bigUglyButton {
+  font-size: 144px;
+  font-style: italic;
+  background-color: yellow;
+}
+
 #myName {
   padding-top: 20px;
   padding-left: 20px;
@@ -34,6 +40,22 @@ h2 {
   padding: 20px;
 }
 
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+#projects {
+  font-size: 24px;
+}
+
+#pImages {
+  border-radius: 20px;
+  height: 180px;
+  width: 300px;
+}
+
 p {
   display: flex;
   margin-bottom: 50px;
@@ -59,6 +81,11 @@ footer {
 a {
   text-decoration: none;
   color: black;
+}
+
+.decor {
+  list-style-type: "\1F44D";
+  padding: 20px;
 }
 
 #icons {
