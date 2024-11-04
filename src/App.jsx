@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./assets/css/App.css";
 import linkedIn from "./assets/images/linkedIn.ico";
 import email from "./assets/images/email.png";
@@ -13,18 +13,18 @@ function App() {
       <header>
         <h1 id="myName">Seth D Joslin</h1>
         <nav id="navBar">
-          <a href="/" id="decor">
+          <Link to="/" id="decor">
             About
-          </a>
-          <a href="/portfolio" id="decor">
+          </Link>
+          <Link to="/portfolio" id="decor">
             Portfolio
-          </a>
-          <a href="/contact" id="decor">
+          </Link>
+          <Link to="/contact" id="decor">
             Contact
-          </a>
-          <a href="/resume" id="decor">
+          </Link>
+          <Link to="/resume" id="decor">
             Resume
-          </a>
+          </Link>
         </nav>
       </header>
       <Routes>
