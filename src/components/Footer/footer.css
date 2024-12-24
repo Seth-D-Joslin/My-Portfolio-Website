@@ -1,0 +1,10 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 30px; */
+  padding-top: 30px;
+  box-shadow: inset -1.5px -1px 0px 0px white, inset 1px 0.5px 0px 0px white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}

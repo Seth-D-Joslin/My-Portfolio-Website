@@ -1,0 +1,67 @@
+#downloadButton {
+  background-color: black;
+  font-size: 20px;
+  font-style: italic;
+  padding: 10px;
+  margin-right: 430px;
+  border-radius: 8px;
+  align-self: flex-end;
+  margin-bottom: -60px;
+  box-shadow: inset -1px 0px 5px 0px white, inset 1px 0px 5px 0px white;
+  cursor: pointer;
+  /* transition: background-color 0.3s, color 0.3s; */
+}
+
+#downloadButton:hover {
+  filter: drop-shadow(0px 0px 8px white);
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 20px 10px;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: inset -1px 0px 5px 0px white, inset 1px 0px 5px 0px white;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 20px 0 20px 20px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: white underline;
+  margin-bottom: 20px;
+}
+
+#proficiencies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* #card:hover {
+  filter: drop-shadow(0px 0px 3px white);
+} */
+
+.decor {
+  list-style-type: none;
+  padding: 20px;
+  font-size: 20px;
+  /* flex: 1 1 200px; */
+}
+
+.decor li::before {
+  content: "\1F47E";
+  margin-right: 10px;
+}

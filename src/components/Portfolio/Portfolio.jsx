@@ -1,3 +1,5 @@
+import "./portfolio.css";
+
 const projects = [
   {
     title: "Study Guide",
@@ -46,16 +48,17 @@ const projects = [
 function Portfolio() {
   return (
     <>
-      <h1 id="page">Portfolio</h1>
-      {projects.map((project, index) => (
-        <div key={index} id="portfolio">
-          <h3 id="projects">{project.title}</h3>{" "}
-          <a href={project.link} target="_blank">
-            <img src={project.image} alt="animated pic" id="pImages" />
-          </a>
-          {project.description}
-        </div>
-      ))}
+      <div class="gitprojects">
+        {projects.map((project, index) => (
+          <div key={index} id="projectPadding">
+            <h3 id="projects">{project.title}</h3>{" "}
+            <a href={project.link} target="_blank">
+              <img src={project.image} alt="animated pic" id="pImages" />
+            </a>
+            <p>{project.description}</p>
+          </div>
+        ))}
+      </div>
     </>
   );
 }

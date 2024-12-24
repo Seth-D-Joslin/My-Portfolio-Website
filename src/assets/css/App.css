@@ -1,112 +1,20 @@
 /* Element Selectors */
 
-header {
-  text-align: start;
-  font-size: 36px;
-  margin: 8px auto;
-  border-bottom: 2px solid black;
+html,
+body {
+  height: 100%;
+  margin: 0;
 }
 
-#bigUglyButton {
-  font-size: 144px;
-  font-style: italic;
-  background-color: yellow;
-}
+/* Class Selectors */
 
-#myName {
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
-#form {
-  padding-left: 30px;
-  font-size: 20px;
-  border: 2px solid black;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 8px;
-}
-
-#page {
-  padding-top: 20px;
-  padding-left: 30px;
-  padding-bottom: 5px;
-}
-
-h2 {
-  padding: 20px;
-}
-
-#portfolio {
+.app-container {
   display: flex;
   flex-direction: column;
-  padding-left: 30px;
+  min-height: 100vh;
 }
 
-#projects {
-  font-size: 24px;
-}
-
-#pImages {
-  border-radius: 20px;
-  height: 180px;
-  width: 300px;
-}
-
-p {
-  display: flex;
-  margin-bottom: 50px;
-  margin-right: 20px;
-  margin-left: 20px;
-  font-size: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  border: 2px solid black;
-  border-radius: 8px;
-}
-
-footer {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  margin: 8px auto;
-  border-top: 2px solid black;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.decor {
-  list-style-type: "\1F44D";
-  padding: 20px;
-}
-
-#icons {
-  height: 100px;
-  width: 100px;
-  border-radius: 20px;
-}
-
-#navBar {
-  display: flex;
-  justify-content: flex-end;
-}
-
-#navBar a {
-  margin-top: -60px;
-  padding: 0.5rem 1rem;
-}
-
-#selfie {
-  padding-right: 20px;
-  border-radius: 50px;
-  height: 275px;
-  width: 200px;
+.content {
+  flex: 1;
+  box-shadow: inset -1.5px -0.5px 0px 0px white, inset 1px 0.5px 0px 0px white;
 }

@@ -1,11 +1,11 @@
-import Contact from "../components/Contact";
+// import Contact from "../components/Contact/Contact";
 
-function ContactPage() {
-  return (
-    <>
-      <Contact />
-    </>
-  );
-}
+// function ContactPage() {
+//   return (
+//     <>
+//       <Contact />
+//     </>
+//   );
+// }
 
-export default ContactPage;
+// export default ContactPage;

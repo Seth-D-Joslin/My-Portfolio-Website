@@ -1,0 +1,26 @@
+#email {
+  position: fixed;
+  top: 175px;
+  right: 0px;
+  margin-right: 30px;
+}
+
+#gitHub {
+  position: fixed;
+  top: 370px;
+  right: 0px;
+  margin-right: 30px;
+}
+
+#linkedIn {
+  position: fixed;
+  top: 575px;
+  right: 0px;
+  margin-right: 30px;
+}
+
+#icons {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+}
