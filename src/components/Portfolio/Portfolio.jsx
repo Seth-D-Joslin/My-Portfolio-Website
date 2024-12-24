@@ -48,7 +48,7 @@ const projects = [
 function Portfolio() {
   return (
     <>
-      <div class="gitprojects">
+      <div className="gitprojects">
         {projects.map((project, index) => (
           <div key={index} id="projectPadding">
             <h3 id="projects">{project.title}</h3>{" "}

@@ -3,9 +3,11 @@ import "./resume.css";
 function Resume() {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = `../assets/docs/myResumé.pdf`;
+    link.href = `/assets/docs/myResumé.pdf`;
     link.download = "myResumé.pdf";
+    document.body.appendChild(link);
     link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -17,7 +19,7 @@ function Resume() {
         <div id="card">
           <h2>Proficiencies</h2>
           <div id="proficiencies">
-            <ul class="decor">
+            <ul className="decor">
               <li>JavaScript</li>
               <li>TypeScript</li>
               <li>HyperText Markup Language</li>
@@ -27,7 +29,7 @@ function Resume() {
               <li>Node.js</li>
               <li>Python</li>
             </ul>
-            <ul class="decor">
+            <ul className="decor">
               <li>React</li>
               <li>MongoDB, Mongoose</li>
               <li>GraphQL, Apollo</li>
