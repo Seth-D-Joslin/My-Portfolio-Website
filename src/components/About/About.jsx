@@ -6,7 +6,7 @@ function About() {
     <>
       <div id="aboutMe">
         <img src={AlaskanSelfie} id="selfie" alt="Selfie" />
-        <h2>Full-Stack Web Developer | JavaScript, TypeScript, React</h2>
+        <h2>Full-Stack Web Developer</h2>
         <p>
           I have recently graduated from the Full-Stack Web Development Bootcamp
           at the University of Denver, where I built a strong foundation in

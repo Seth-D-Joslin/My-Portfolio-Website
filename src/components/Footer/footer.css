@@ -2,9 +2,27 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding-bottom: 30px; */
   padding-top: 30px;
   box-shadow: inset -1.5px -1px 0px 0px white, inset 1px 0.5px 0px 0px white;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+}
+
+@media screen and (max-width: 1000px) {
+  footer {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 110px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    font-size: 24px;
+    box-shadow: inset -1px -1px 0px 0px white, inset 1px 0.5px 0px 0px white;
+    justify-content: center;
+    align-items: center;
+    padding-right: 85px;
+  }
 }

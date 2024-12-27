@@ -22,3 +22,43 @@
   height: 180px;
   width: 300px;
 }
+
+@media screen and (max-width: 1000px) {
+  .gitprojects {
+    margin-right: 0px;
+    margin-left: 80px;
+  }
+
+  #projectPadding {
+    margin: 25px;
+  }
+
+  #projects {
+    font-size: 20px;
+  }
+
+  #pImages {
+    height: 150px;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gitprojects {
+    margin-left: 45px;
+    margin-right: 0px;
+  }
+
+  #projectPadding {
+    margin: 15px;
+  }
+
+  #projects {
+    font-size: 16px;
+  }
+
+  #pImages {
+    height: 120px;
+    width: 200px;
+  }
+}

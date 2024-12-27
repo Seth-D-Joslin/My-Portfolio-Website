@@ -24,3 +24,53 @@
   width: 100px;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 1000px) {
+  #email {
+    top: 155px;
+    left: 0px;
+    margin-left: 20px;
+  }
+
+  #gitHub {
+    top: 270px;
+    left: 0px;
+    margin-left: 20px;
+  }
+
+  #linkedIn {
+    top: 385px;
+    left: 0px;
+    margin-left: 20px;
+  }
+
+  #icons {
+    height: 75px;
+    width: 75px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #email {
+    top: 155px;
+    left: 0px;
+    margin-left: 5px;
+  }
+
+  #gitHub {
+    top: 225px;
+    left: 0px;
+    margin-left: 5px;
+  }
+
+  #linkedIn {
+    top: 290px;
+    left: 0px;
+    margin-left: 5px;
+  }
+
+  #icons {
+    height: 50px;
+    width: 50px;
+  }
+}

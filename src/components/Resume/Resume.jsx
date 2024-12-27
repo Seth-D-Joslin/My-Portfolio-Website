@@ -13,9 +13,6 @@ function Resume() {
   return (
     <>
       <div className="resume-container">
-        <button onClick={handleDownload} id="downloadButton">
-          Download Resumé
-        </button>
         <div id="card">
           <h2>Proficiencies</h2>
           <div id="proficiencies">
@@ -29,7 +26,7 @@ function Resume() {
               <li>Node.js</li>
               <li>Python</li>
             </ul>
-            <ul className="decor">
+            <ul className="decor" id="secondList">
               <li>React</li>
               <li>MongoDB, Mongoose</li>
               <li>GraphQL, Apollo</li>
@@ -40,6 +37,9 @@ function Resume() {
             </ul>
           </div>
         </div>
+        <button onClick={handleDownload} id="downloadButton">
+          Download Resumé
+        </button>
       </div>
     </>
   );
